@@ -1,0 +1,92 @@
+{
+  "_contract": "Public Radio Station DNA for 'The Lounge | 24/7 Tamil Radio'. 100% Pure Tamil Indie, Chill & Hype hits only. No random English tracks.",
+  "default_station": "hype",
+  "stations": {
+    "hype": {
+      "emoji": "🔥",
+      "vibe": "Full energy Kollywood + Tamil indie bangers + Non-Tamil blockbusters that shook TN (Illuminati, Manjummel Boys) in original language",
+      "artists": [
+        "Sai Abhyankkar",
+        "Asal Kolaar",
+        "Anirudh Ravichander",
+        "G.V. Prakash Kumar",
+        "Dhanush",
+        "Paal Dabba",
+        "Sushin Shyam"
+      ],
+      "tracks": [
+        "Sai Abhyankkar - Radhimaa Official Audio",
+        "Sai Abhyankkar - Katchi Sera Official Audio",
+        "Sai Abhyankkar - Aasa Kooda Official Audio",
+        "Sushin Shyam - Illuminati Official Audio",
+        "Sushin Shyam - Kuthanthram Manjummel Boys Official Audio",
+        "Sushin Shyam - Jaada Aavesham Official Audio",
+        "Asal Kolaar - Jorthaale Official Audio",
+        "Anirudh - Hukum Jailer Official Audio",
+        "Paal Dabba - 170CM Official Audio"
+      ]
+    },
+    "study_lofi": {
+      "emoji": "📚",
+      "vibe": "Focus & JEE grind fuel — 24/7 Tamil lo-fi beats",
+      "artists": [
+        "Tamil Lo-Fi",
+        "Lofi Tamil Beats",
+        "Tamil Piano Covers",
+        "Instrumental BGM"
+      ]
+    },
+    "night_chill": {
+      "emoji": "🌙",
+      "vibe": "Late night thendral feel — soft melodies",
+      "artists": [
+        "Sushin Shyam",
+        "Sid Sriram",
+        "Pradeep Kumar",
+        "Santhosh Narayanan",
+        "Sean Roldan"
+      ]
+    },
+    "ost_station": {
+      "emoji": "⚔️",
+      "vibe": "Cinema & Anime OST instrumental energy",
+      "artists": [
+        "One Piece OST",
+        "Shiro Sagisu",
+        "Hiroyuki Sawano",
+        "Hans Zimmer"
+      ]
+    }
+  },
+  "artist_weights": {
+    "Sai Abhyankkar": 1.3,
+    "Asal Kolaar": 1.0,
+    "Anirudh Ravichander": 1.0,
+    "Sushin Shyam": 1.0
+  },
+  "blacklist_keywords": [
+    "1 hour",
+    "slowed",
+    "reverb",
+    "mashup",
+    "karaoke",
+    "nightcore",
+    "8d audio",
+    "jukebox",
+    "non stop",
+    "nonstop"
+  ],
+  "rules": {
+    "no_repeat_hours": 4,
+    "skip_dislike_threshold_sec": 10,
+    "duration_filter_sec": [
+      90,
+      360
+    ],
+    "weight_step": 0.1,
+    "weight_min": 0.2,
+    "weight_max": 2.0
+  },
+  "disliked_tracks": [],
+  "liked_tracks": []
+}
